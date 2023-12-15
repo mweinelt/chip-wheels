@@ -1,6 +1,8 @@
 name: CHIP wheels build
 
-on: push
+on:
+  push:
+  workflow_dispatch:
 
 env:
   matter_sdk_ref: v1.2.0.1
